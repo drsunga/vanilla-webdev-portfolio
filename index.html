@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plaster&display=swap">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header id="header-nav">
+        <div id="header-logo">
+            <span class="initials-logo">DS</span>
+            <h1 class="header-title">
+                <span class="header-byline-title">Dom Sunga — Full Stack</span>
+            </h1>
+        </div>
+        <nav id="section-nav" class="nav head-nav dropdown-menu">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+            <label for="nav-toggle" class="dropdown-btn hamburger" aria-label="Menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </label>
+            <ul class="nav-list">
+                <li><a href="#section-about" class="nav-link">ABOUT</a></li>
+                <li><a href="#section-work" class="nav-link">WORK</a></li>
+                <li><a href="#section-tools" class="nav-link">TOOLS</a></li>
+                <li><a href="#section-contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section-hero" class="section-group">
+            <div class="hero-bottom-left">
+                <h2 class="intro-tagline" id="hero-tagline">
+                    <div class="hero-tagline-block tl-block-1">
+                        <span class="tagline first-tagline">
+                            <span>BUIL<span class="logo-letter">D</span>ING</span>
+                        </span>
+                    </div>
+                    <div class="hero-tagline-block tl-block-2">
+                        <span class="tagline second-tagline">
+                            <span>EXPERIENCE<span class="logo-letter">S</span></span>
+                        </span>
+                    </div>
+                    <div class="hero-tagline-block tl-block-3">
+                        <span class="tagline third-tagline">
+                            <span>THAT <span class="tagline-highlight">MOVE</span> PEOPLE</span>
+                        </span>
+                    </div>
+                </h2>
+                <div class="hero-passion">
+                    <p class="hero-blurb">
+                        Bridging design and development to build fast, 
+                        accessible interfaces with intentional motion and strong typography.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-about" class="section-group">
+            <div class="title-group">
+                <div class="title-about-block">
+                    <h2 class="title-about">
+                        <div class="title-about">
+                            <span class="blink-square"></span>
+                            <span class="title-about-sm">About - Dom Sunga</span>
+                        </div>
+                    </h2>
+                    <div class="about-content-left">
+                        <p class="about-tagline about-desc">Seamless interaction is <span class="hl-letter">key</span></p>
+                    </div>
+                </div>
+                <div class="about-content-block">
+                    <div class="about-content-right">
+                        <p class="about-blurb about-desc">
+                            I started in research, where I learned to work carefully with data, test assumptions, and communicate findings clearly. 
+                            Now I bring that same rigor to building software — combining a full-stack skill set with an eye for interface and motion design.
+                            I care about the details that make an interface feel intentional: clean code, thoughtful motion, and a strong typographic voice. 
+                            Whether I'm shaping an API or polishing a transition, the goal is the same — build things that work well and feel right.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-work" class="section-group">
+            <div class="work-group">
+                <div class="feat-work-block">
+                    <h2 class="feat-work">
+                        <div class="feat-work-title">
+                            <span class="blink-square"></span>
+                            <span class="feat-work-sm">Featured Works —</span>
+                        </div>
+                    </h2>
+                </div>
+                <div class="work-grid-block">
+                    <div class="feat-work-1 work-content-block">
+                        <div class="img-block">
+                            <img src="img/web-crawler-py.png" alt="Python Web Crawlers" class="img-web-crawler">
+                        </div>
+                        <div class="feat-work-title">
+                            <h3>Web Crawlers</h3>
+                        </div>
+                        <div class="feat-work-desc">
+                            <p>
+                                A Python web scraper that parses a site's HTML structure to extract article data 
+                                including title, author, publication date, source link, and full content. 
+                                Then stores it in a structured database.
+                            </p>
+                        </div>
+                        <div class="feat-work-skills">
+                            <ul class="skills-list">
+                                <li class="skill-feat"><i class="fa-brands fa-python"></i> Python</li>
+                                <li class="skill-feat">Selenium</li>
+                                <li class="skill-feat">BeautifulSoup</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feat-work-2 work-content-block">
+                        <div class="img-block">
+                            <img src="img/py-status-checkr.jpg" alt="Python Status Checker" class="img-py-checker">
+                        </div>
+                        <div class="feat-work-title">
+                            <h3>Source Monitoring System</h3>
+                        </div>
+                        <div class="feat-work-desc">
+                            <p>
+                                A Python script that checks whether each source's logs are up to date. 
+                                Flagging any sources found out of date then lists them in a Google Sheets file for review.
+                            </p>
+                        </div>
+                        <div class="feat-work-skills">
+                            <ul class="skills-list">
+                                <li class="skill-feat"><i class="fa-brands fa-python"></i> Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feat-work-3 work-content-block">
+                        <div class="img-block">
+                            <img src="img/class-enr-sys.jpg" alt="Class Enrollment System" class="img-class-enr-sys">
+                        </div>
+                        <div class="feat-work-title">
+                            <h3>Course Enrollment Simulator</h3>
+                        </div>
+                        <div class="feat-work-desc">
+                            <p>
+                                A basic JavaScript console application that simulates how webpages navigate.
+                                It has different look for each page, has validations, and can store data.
+                            </p>
+                        </div>
+                        <div class="feat-work-skills">
+                            <ul class="skills-list">
+                                <li class="skill-feat"><i class="fa-brands fa-js"></i> JavaScript</li>
+                                <li class="skill-feat"><i class="fa-brands fa-node-js"></i> Node.js</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feat-work-4 work-content-block">
+                        <div class="img-block">
+                            <img src="img/vanilla-html-css.jpg" alt="Vanilla Dev Portfolio" class="img-dev-portfolio">
+                        </div>
+                        <div class="feat-work-title">
+                            <h3>Vanilla HTML/CSS Portfolio</h3>
+                        </div>
+                        <div class="feat-work-desc">
+                            <p>A vanilla HTML and CSS portfolio presenting my profile, technical skills, and featured projects.</p>
+                        </div>
+                        <div class="feat-work-skills">
+                            <ul class="skills-list">
+                                <li class="skill-feat"><i class="fa-solid fa-code"></i> HTML5</li>
+                                <li class="skill-feat"><i class="fa-solid fa-code"></i> CSS3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-tools" class="section-group">
+            <div class="tool-title-block">
+                <span class="blink-square"></span>
+                <span class="title tool-title-sm">Tech Stack —</span>
+            </div>
+            <div class="tool-content-group">
+                <div class="tool-category">
+                    <h4 class="tool-category-title">Frontend</h4>
+                    <ul class="tool-prog">
+                        <li class="tool-skill"><img src="img/html-5-svgrepo-com.svg" alt="HTML5" class="tool-icon"> HTML5</li>
+                        <li class="tool-skill"><img src="img/css-svgrepo-com.svg" alt="CSS3" class="tool-icon"> CSS3</li>
+                        <li class="tool-skill"><img src="img/javascript-svgrepo-com.svg" alt="JavaScript" class="tool-icon"> JavaScript</li>
+                        <li class="tool-skill"><img src="img/react-svgrepo-com.svg" alt="Reactjs" class="tool-icon"> React</li>
+                    </ul>
+                </div>
+
+                <div class="tool-category">
+                    <h4 class="tool-category-title">Backend</h4>
+                    <ul class="tool-prog">
+                        <li class="tool-skill"><img src="img/python-svgrepo-com.svg" alt="Python" class="tool-icon"> Python</li>
+                        <li class="tool-skill"><img src="img/flask-3-svgrepo-com.svg" alt="Flask" class="tool-icon"> Flask</li>
+                        <li class="tool-skill"><img src="img/node-js-svgrepo-com.svg" alt="Nodejs" class="tool-icon"> Node.js</li>
+                        <li class="tool-skill"><img src="img/npm-svgrepo-com.svg" alt="NPM" class="tool-icon"> NPM</li>
+                        <li class="tool-skill"><img src="img/mongo-svgrepo-com.svg" alt="MongoDb" class="tool-icon"> MongoDB</li>
+                        <li class="tool-skill"><img src="img/rest-api-svgrepo-com.svg" alt="REST API" class="tool-icon">REST APIs</li>
+                    </ul>
+                </div>
+
+                <div class="tool-category">
+                    <h4 class="tool-category-title">Other Tools</h4>
+                    <ul class="tool-prog">
+                        <li class="tool-skill"><img src="img/selenium-svgrepo-com.svg" alt="Selenium" class="tool-icon"> Selenium</li>
+                        <li class="tool-skill"><img src="img/git-svgrepo-com.svg" alt="Git" class="tool-icon"> Git</li>
+                        <li class="tool-skill"><img src="img/bash-icon-svgrepo-com.svg" alt="Bash" class="tool-icon"> CLI</li>
+                        <li class="tool-skill"><img src="img/vs-code-svgrepo-com.svg" alt="VS Code" class="tool-icon"> VS Code</li>
+                        <li class="tool-skill"><img src="img/jb-pycharm-svgrepo-com.svg" alt="PyCharm" class="tool-icon"> PyCharm</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <section id="section-contact" class="footer-sections">
+                <div class="section-grid-block">
+                    <div class="contact-tagline">
+                        <h3 class="contact-tagline-content">Let's <span class="hl-text">Talk.</span></h3>
+                    </div>
+                    <div class="logo-icon-container">
+                        <div class="contact-logo-block">
+                            <span class="contact-logo">DS</span>
+                        </div>
+                        <div class="contact-link-block">
+                            <a class="contact-link" title="LinkedIn" href="https://www.linkedin.com/in/dom-sunga/">
+                                <i class="fa-brands fa-square-linkedin"></i>
+                            </a>
+                            <a class="contact-link" title="Discord" href="https://discord.com/users/368905774459650049">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                            <a class="contact-link" title="GitHub" href="https://github.com/drsunga/">
+                                <i class="fa-brands fa-square-github"></i>
+                            </a>
+                            <a class="contact-link" title="Gmail" href="mailto:domsu012@gmail.com?subject=Let's%20connect">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="return-top-container">
+                        <a href="#header-nav" class="back-to-top">
+                            <i class="fa-solid fa-angles-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+</body>
+</html>
